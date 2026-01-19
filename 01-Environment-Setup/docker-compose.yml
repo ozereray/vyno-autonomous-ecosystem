@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  vyno-agent:
+    build: .
+    network_mode: "host"
+    environment:
+      - PYTHONUNBUFFERED=1
